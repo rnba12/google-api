@@ -92,8 +92,7 @@ button {
   }
 
 .settingssection {
- float: right;
- margin-left: 130px;
+ margin-left: 200px;
 }
 
 #settings-btn {
@@ -126,4 +125,23 @@ button {
     box-shadow: none;
     border: none;
     margin: 0px;
+}
+
+#nav {
+    display: inline-block;
+    position: relative;
+    border: 1px solid red;
+}
+header li {
+    display: inline-block;
+    list-style: none;
+    height: 30px;
+    border: 1px solid red;
+    padding: 0px;
+    margin: 0px;
+}
+
+header li:hover {
+    
+    border-bottom: 2px solid #1a73e8;
 }
