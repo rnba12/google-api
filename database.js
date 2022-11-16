@@ -37,7 +37,7 @@ let data = [
         },
         resultOne: {
             displayurl: "http://www.asos.com",
-            heading: "ASOS | Online Shopping for the LAstest Clothes & Fashion",
+            heading: "ASOS | Online Shopping for the Latest Clothes & Fashion",
             description: "Discover the latest fashion trends with ASOS. Shop the new collection of clothing, footwear, accessories, beauty products and more. Order today from ASOS.",
             extentions: {
                 extentionsOne: "Women's Clothes",

@@ -1,3 +1,41 @@
 .main {
-    margin-top: 200px;
+    top: 300px;
+    margin: 0px 70px;
+}
+
+section {
+    border: 1px solid red;
+    width: 60%;
+}
+
+.displayURL {
+    color: #333437;
+}
+
+.heading {
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: 17px;
+}
+
+.heading:hover {
+    text-decoration: underline;
+}
+
+.description {
+    color: #4d5156;
+}
+
+.extension {
+    color: #1a0dab;
+}
+
+li {
+    display: inline-block;
+    padding: 3px;
+    font-size: 13px;
+}
+
+li:hover {
+    text-decoration: underline;
 }

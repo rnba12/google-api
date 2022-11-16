@@ -15,4 +15,7 @@ function getResults(e){
         } return false;
     })
     console.log(searchClothes)
+    if (searchClothes) {
+        document.getElementById("one_displayURL").textContent ="";
+    }
 }
