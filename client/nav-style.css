@@ -150,17 +150,31 @@ button {
 #nav {
     display: inline-block;
     position: relative;
-    border: 1px solid red;
+    margin-left: 70px;
 }
-header li {
+#nav li {
     display: inline-block;
     list-style: none;
     height: 30px;
-    border: 1px solid red;
-    padding: 0px;
+    padding: 5px 7px;
     margin: 0px;
+    font-size: 14px;
+    color: #5f6368;
 }
 
-header li:hover {
+#nav ul {
+    margin:13px 0px 0px 0px;
+    padding:0px;
+    list-style: none;
+    justify-content: center;
+}
+    
+#nav #currentpage {
     border-bottom: 2px solid #1a73e8;
+    color: #1a73e8;
+}
+
+* #material-symbols-outlined {
+    font-size: 13px;
+    opacity: 60%;
 }
