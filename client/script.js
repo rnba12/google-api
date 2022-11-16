@@ -16,6 +16,8 @@ function getResults(e){
     })
     if (searchClothes) {
        searchi()
+    } else {
+        document.getElementById('noresults').textContent = "No Results"
     }
 }
 
