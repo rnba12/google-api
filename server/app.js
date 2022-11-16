@@ -5,7 +5,7 @@ app.use(express.json())
 const port = 3000
 
 app.get('/', (req, res) => {
-    res.send("Google !!!");
+    res.status(200).send("Google !!!");
 })
 
 app.listen(port, () => {
