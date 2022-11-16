@@ -33,12 +33,14 @@ section {
     color: #1a0dab;
 }
 section ul {
-    border: 1px solid red;
+    justify-content: left;
+    padding: 0px;
 }
 section li {
     display: inline-block;
     padding: 3px;
     font-size: 13px;
+    list-style: none;
 }
 
 section li:hover {
@@ -55,10 +57,41 @@ section li:hover {
 }
 
 #seemore:hover {
+    position: absolute;
     background-color: #d8d7dc;
 }
 
+#footer1 {
+    margin:0px;
+    position: relative;
+    top: 1700px;
+    width: 100%;
+    background-color: #dfe1e2;
+}
+
 footer {
-    background-color:  #dfe1e2;
-    top: -60px;
+    margin:0px;
+    position: relative;
+    top: 1700px;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: grey;
+    font-size: 14px;
+}
+
+footer p {
+    border-right: 1px solid #dadce0;
+    padding: 15px 5px 3px 80px;
+    width: 130px;
+    text-align: right;
+}
+
+#footerNav li{
+    display: inline-block;
+    padding: 7px 20px 20px 5px;
+}
+
+footer ul {
+    border-top: 1px solid #dadce0;
+    padding-left: 105px;
 }
