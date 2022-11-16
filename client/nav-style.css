@@ -1,14 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0px;
 }
 header {
-    margin-top: 15px;
     position: fixed;
-    display: inline-flex;
     border-bottom: 1px solid lightgrey;
     width: 100%;
     height: 118px;
+    background-color: white;
+    z-index: 1;
+    margin-top: 0px;
+    top:0px;
 }
 
 button {
@@ -19,19 +21,23 @@ button {
 }
 
 #logo {
-    margin: 0px 30px 0px 70px;
+    margin: 18px 30px 0px 70px;
     width: 110px;
     display: inline-block;
     height: 39px;
     left: 15%;
+    top:5px;
 }
 
 .searchbar {
-    display: inline-block;
     border: solid whitesmoke;
     border-radius: 60px;
     box-shadow: lightslategrey;
     width: 580px;
+    top:5px;
+    position: absolute;
+    left: 240px;
+    margin-top:15px
 }
 
 #searchbar {
@@ -92,7 +98,9 @@ button {
   }
 
 .settingssection {
- margin-left: 200px;
+    top:15px;
+    left: 1090px;
+    position: absolute;
 }
 
 #settings-btn {
@@ -101,6 +109,9 @@ button {
     justify-content: center;
     border-radius: 100%;
     margin-right: 3px;
+    top:6px;
+    right: 50px;
+    position: absolute;
 }
 #settings-btn:hover{
     background-color: #edeeef;
@@ -112,6 +123,9 @@ button {
     border-radius: 100%;
     margin-top: 6px;
     margin-right: 6px;
+    top:0px;
+    right: 5px;
+    position: absolute;
 }
 #apps-btn:hover{
     background-color: #edeeef;
@@ -125,6 +139,12 @@ button {
     box-shadow: none;
     border: none;
     margin: 0px;
+    top:6px;
+    position: absolute;
+}
+
+#signin-btn:hover {
+    background-color: #104993;
 }
 
 #nav {
@@ -142,6 +162,5 @@ header li {
 }
 
 header li:hover {
-    
     border-bottom: 2px solid #1a73e8;
 }
