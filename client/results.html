@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="nav-style.css">
+    <link rel="stylesheet" href="main-style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script defer src="script.js"></script>
     <title>Search Results</title>
 </head>
 <body>
@@ -22,18 +24,43 @@
                 <input type="text" id="searchbar">
                 <button id="close-btn"><span class="material-symbols-outlined">close</span></button>
                 <div class="tooltip">
-                    <button id="photo-btn"></button><span class="material-symbols-outlined">mic</span></button>
+                    <button id="mic-btn"></button><span class="material-symbols-outlined">mic</span></button>
+                    <span class="tooltiptext">Not available</span>
+                </div>
+                <div class="tooltip">
                     <button id="photo-btn"><span class="material-symbols-outlined">photo_camera</span></button>
                     <span class="tooltiptext">Not available</span>
-                  </div>
+                </div>
+                
                 <button id="search-btn"><span class="material-symbols-outlined">search</span></button>
             </div>
         </form>
+        <!-- <div id="nav">
+            <ul>
+                <li>All</li>
+                <li>Shopping</li>
+                <li>Images</li>
+                <li>Maps</li>
+                <li>Video</li>
+                <li>More</li>
+            </ul>
+        </div> -->
         <div class="settingssection">
             <button id="settings-btn"><span class="material-symbols-outlined">settings</span></button>
             <button id="apps-btn"><span class="material-symbols-outlined">apps</span></button>
             <input type="button" value="Sign in" id="signin-btn">
         </div>
     </header>
+<div class="main">
+    <section>
+        <p>displayURL</p>
+        <a href="">Heading</a>
+        <p>discription</p>
+        <ul><li>extention1</li>
+        <li>extention2</li>
+        <li>extention3</li>
+        <li>extention4</li></ul>
+    </section>
+</div>
 </body>
 </html>
