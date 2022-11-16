@@ -1,15 +1,17 @@
 .main {
-    top: 300px;
+    position: absolute;
+    top: 120px;
     margin: 0px 70px;
 }
 
 section {
-    border: 1px solid red;
-    width: 60%;
+    width: 650px;
+    padding: 5px;
 }
 
 .displayURL {
     color: #333437;
+    font-size: 15px;
 }
 
 .heading {
@@ -24,18 +26,39 @@ section {
 
 .description {
     color: #4d5156;
+    font-size: 15px;
 }
 
 .extension {
     color: #1a0dab;
 }
-
-li {
+section ul {
+    border: 1px solid red;
+}
+section li {
     display: inline-block;
     padding: 3px;
     font-size: 13px;
 }
 
-li:hover {
+section li:hover {
     text-decoration: underline;
+}
+
+#seemore {
+    background-color: #dfe1e2;
+    height: 40px;
+    width: 300px;
+    border-radius: 60px;
+    left:150px;
+    position: absolute;
+}
+
+#seemore:hover {
+    background-color: #d8d7dc;
+}
+
+footer {
+    background-color:  #dfe1e2;
+    top: -60px;
 }
