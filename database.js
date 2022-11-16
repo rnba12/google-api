@@ -1,6 +1,40 @@
 let data = [
     {
         searchCat: "clothes",
+        shoppingAds: {
+            adOne: {
+                title: "Cider Women's Elegant Elegant Romantic Solid Cowl Neck Slit Midi Dress For Wedding Guest Summer, S/Blue",
+                price: "£21.00",
+                brand: "Cider",
+                landingpage: "https://www.shopcider.com/product/detail?pid=1013851&style_id=113720&currency=GBP&sku_id=59247&utm_source=google_shopping&utm_campaign=pla-gb-cate-dress-mbtb&gbraid=0AAAAABvq22vCxUPO5wNwYktw9gY3E_U6f&gclid=EAIaIQobChMIxpmVkcCy-wIVwevtCh3g-w02EAQYAiABEgIEz_D_BwE"
+            },
+            adOTwo: {
+                title: "Letter Graphic Thermal Lined Sweatshirt, M Letter Pullovers Hoodie Casual size 18-35Y White Regular, White by SHEIN , White by SHEIN",
+                price: "£7.99",
+                brand: "SHEIN",
+                landingpage: "https://www.shein.co.uk/Letter-Graphic-Thermal-Lined-Sweatshirt-p-2837670-cat-1773.html?url_from=ukadplaswsweatsh24210604532M_GPM&cid=15848978804&setid=&adid=&pf=GOOGLE&gclid=EAIaIQobChMIsbbUlbSy-wIVQu3tCh0VaQE9EAYYAiABEgLw7vD_BwE"
+            },
+            adThree: {
+                title: "Black Tape Bodycon Dress",
+                price: "£17.50",
+                brand: "silksilkUK",
+                landingpage: "https://siksilk.com/products/siksilk-tape-bodycon-dress-black?variant=39374769619033&tw_source=google&tw_adid=616036189605&utm_source=google&utm_medium=paid&utm_campaign=18028621568&utm_content=140404711895&utm_term=&gadid=616036189605"
+            },
+            adFour: {
+                title: "Women's Green Textured Split Hem Halter Crop Top - Size 8",
+                price: "£12.00",
+                brand: "PrettyLittleThing",
+                landingpage: "https://www.prettylittlething.com/khaki-textured-split-hem-halter-crop-top.html?utm_source=google&utm_medium=cpc&utm_campaign=google_shopping&utm_content=uk&utm_term=product_target&istCompanyId=3b233929-048d-4b79-a672-b37827e7282d&istFeedId=995a7449-4b91-4f81-8010-f9c5da786479&istItemId=pmpraprmt&istBid=t&gclid=EAIaIQobChMIsbbUlbSy-wIVQu3tCh0VaQE9EAYYBCABEgKKjvD_BwE&gclsrc=aw.ds",
+
+            },
+            adFive: {
+                title: "Tropical Print Sheer Mesh Bodycon Dress, XL Summer Multicolor Bodycon Sexy Sleeveless Sheer Tropical Mesh Fabric Edgy , Multicolor by SHEIN",
+                price: "£6.49",
+                brand: "SHEIN",
+                landingpage: "https://www.shein.co.uk/Tropical-Print-Sheer-Mesh-Bodycon-Dress-p-8388572-cat-1727.html?url_from=ukadplasw2111299626270107XL_GPM&cid=16749342232&setid=&adid=&pf=GOOGLE&gclid=EAIaIQobChMIsbbUlbSy-wIVQu3tCh0VaQE9EAYYBSABEgLPivD_BwE"
+            }
+
+        },
         resultOne: {
             displayurl: "http://www.asos.com",
             heading: "ASOS | Online Shopping for the LAstest Clothes & Fashion",
@@ -88,6 +122,39 @@ let data = [
     },
     {
         searchCat: "toys",
+        shoppingAds: {
+            adOne: {
+                title: "Online Exclusive Build-A-Bear Buddies Confetti Cub Soft Toy",
+                price: "£8.00",
+                brand: "Build-A-Bear UK",
+                landingpage: "https://www.buildabear.co.uk/online-exclusive-build-a-bear-buddies-confetti-cub/429234.html?utm_campaign=&utm_source=&utm_medium=&utm_content={ad}&utm_term=&utm_source=google&utm_medium=cpc&utm_campaign=UK_pMax_ACQ_Products&utm_adgroup=Products&utm_content={ad}&utm_term=&gclid=EAIaIQobChMIpMjx2b-y-wIVS7TtCh390QldEAYYASABEgLkT_D_BwE"
+            },
+            adOTwo: {
+                title: "VTech 193803 Kidizoom Smart Watch DX2 Toy, Blue, 1.5 x 4.6 x 22.4 cm",
+                price: "£39.99",
+                brand: "Amazon.co.uk",
+                landingpage: "https://www.amazon.co.uk/Kidizoom%C2%AE-Smart-Watch-Blue-VERSION/dp/B07CTSL5C5/ref=asc_df_B07CTSL5C5/?tag=googshopuk-21&linkCode=df0&hvadid=310786189177&hvpos=&hvnetw=g&hvrand=4731818125716817821&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9044964&hvtargid=pla-720763759192&psc=1&th=1&psc=1"
+            },
+            adThree: {
+                title: "LEGO The Disney Castle",
+                price: "£309.99",
+                brand: "LEGO.com",
+                landingpage: "https://www.lego.com/en-gb/product/the-disney-castle-71040?cmp=KAC-INI-GOOGEU-GO-GB-EN-RE-SP-BUY-CREATE-PLA-SHOP-BP-SP-RN-PRIORITY&ef_id=EAIaIQobChMIpMjx2b-y-wIVS7TtCh390QldEAYYAyABEgJEG_D_BwE:g:s&s_kwcid=AL!933!3!634448813689!!!g!1891673550452!"
+            },
+            adFour: {
+                title: "Lego Diagon Alley",
+                price: "£389.99",
+                brand: "LEGO.com",
+                landingpage: "https://www.lego.com/en-gb/product/diagon-alley-75978?cmp=KAC-INI-GOOGEU-GO-GB-EN-RE-SP-BUY-CREATE-PLA-SHOP-BP-SP-RN-PRIORITY&ef_id=EAIaIQobChMIpMjx2b-y-wIVS7TtCh390QldEAYYBCABEgL5z_D_BwE:g:s&s_kwcid=AL!933!3!634448813689!!!g!1910291917914!",
+
+            },
+            adFive: {
+                title: "Build-A-Bear Buddies Axolotl",
+                price: "£10.00",
+                brand: "Build-A-Bear UK",
+                landingpage: "https://www.buildabear.co.uk/build-a-bear-buddies-axolotl/431039.html?utm_campaign=&utm_source=&utm_medium=&utm_content={ad}&utm_term=&utm_source=google&utm_medium=cpc&utm_campaign=UK_pMax_ACQ_Products&utm_adgroup=Products&utm_content={ad}&utm_term=&gclid=EAIaIQobChMIpMjx2b-y-wIVS7TtCh390QldEAYYBSABEgLTTfD_BwE"
+            }
+        },
         resultOne: {
             displayurl: "https://www.toysrus.co.uk",
             heading: "Toys R Us UK - The World's Greatest Toy Store is Back!",
