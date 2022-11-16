@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -21,19 +22,18 @@
                 <input type="text" id="searchbar">
                 <button id="close-btn"><span class="material-symbols-outlined">close</span></button>
                 <div class="tooltip">
+                    <button id="photo-btn"></button><span class="material-symbols-outlined">mic</span></button>
                     <button id="photo-btn"><span class="material-symbols-outlined">photo_camera</span></button>
                     <span class="tooltiptext">Not available</span>
                   </div>
                 <button id="search-btn"><span class="material-symbols-outlined">search</span></button>
             </div>
-
-            <div>
-                <button id="settings-btn"><span class="material-symbols-outlined">settings</span></button>
-                <button id="apps-btn"><span class="material-symbols-outlined">apps</span></button>
-                <input type="button" value="Sign In" id="signin-btn">
-            </div>
-
         </form>
+        <div class="settingssection">
+            <button id="settings-btn"><span class="material-symbols-outlined">settings</span></button>
+            <button id="apps-btn"><span class="material-symbols-outlined">apps</span></button>
+            <input type="button" value="Sign in" id="signin-btn">
+        </div>
     </header>
 </body>
 </html>
