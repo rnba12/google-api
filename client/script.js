@@ -1,18 +1,34 @@
 const search = document.querySelector("form")
-//search.addEventListener("click",getResults)
-let searchCat; 
 
-function getResults(e){
-    e.preventDefault()
+let searchCat;
+
+fetch('http://localhost:3000/google/search/query').then(r => r.json())
+.then(Data => {
+    let searchQuery = Data.query
+    document.getElementById("searchbar").value = searchQuery;
+    getResults();
+})
+
+
+function getData() {
+    let searchQuery = document.getElementById('searchbar').value;
+    console.log(searchQuery);
+     const newSearch = JSON.stringify({query: searchQuery})
+    fetch('http://localhost:3000/google/search', {method: 'POST', body: newSearch, headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}})
+    .then(r => r.json())
+}
+
+function getResults(){
+   
     document.getElementById('noresults').textContent = "";
     document.getElementById('results').style.display = 'block';
     let searchterm = document.getElementById("searchbar").value;
     searchterm = searchterm.toLowerCase();
    
-    console.log(searchterm)
+    
     const clothesTerms = ["clothes","tops","trousers","tshirt","shirt","skirt","dress","suit","shoes","fashion"]
-    const toysTerms = ["toys","games","lego","puzzles"
-]
+    const toysTerms = ["toys","games","lego","puzzles"]
+
     let searchClothes = clothesTerms.some(item => {
         if (searchterm.includes(item)) {
             searchCat = "clothes";
@@ -39,7 +55,11 @@ function getResults(e){
 }
 
 
-search.addEventListener('submit', getResults)
+search.addEventListener('submit', (e) => {
+    e.preventDefault();
+    getData();
+    getResults();
+})
 
 function searchi(e) {
     // e.preventDefault()
