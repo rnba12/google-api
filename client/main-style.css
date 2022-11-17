@@ -4,6 +4,11 @@
     margin: 0px 70px;
 }
 
+#results * {
+    visibility: hidden;
+}
+
+
 section {
     width: 650px;
     padding: 5px;
