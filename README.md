@@ -24,11 +24,13 @@ Have fun navigating through th forst page of results.
 WINS & CHALLANGES
 
 WINS
+
 Able to pull results for terms related to category, not just specific search terms.
 Able to add and pull data for more than one category
 Styling tries to imitate Google page as much as possible
 
 CHALLANGES/EBIS
+
 Found difficulty in linking homepage and results page
 Did not have time to include shopping ads
 Results page coded for exactly 10 results (will vary in real life expecially with shopping ads.)
