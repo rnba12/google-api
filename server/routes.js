@@ -8,9 +8,9 @@ router.get('/data', (req,res) => {
 })
 
 //get data for specific search category
-router.get('/:search', (req,res) => {
+router.get('/:result', (req,res) => {
    try{ 
-        search = req.params.search;
+        search = req.params.result;
         result = data.find((obj) => obj.searchCat == search);
         if (!result) {
             throw new Error("No results found")
@@ -21,6 +21,13 @@ router.get('/:search', (req,res) => {
         console.log(err)
         res.status(404).send({message: err.message})
     }
+})
+
+router.post('/search/:term', (req,res) => {
+    const term = req.body.term;
+    console.log(term);
+    data[0].query = term;
+    res.status(201).send(data[0].query);
 })
 
 module.exports = router;

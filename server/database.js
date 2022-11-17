@@ -1,5 +1,9 @@
 let data = [
     {
+        query: ""
+    },
+    {
+       
         searchCat: "clothes",
         shoppingAds: {
             adOne: {
@@ -43,7 +47,7 @@ let data = [
                 extentionsOne: "Women's Clothes",
                 extentionsTwo: "Men's Clothes",
                 extentionsThree: "Shop Women's Clothes",
-                extentionsOne: "Men's Holiday Clothes"
+                extentionsFour: "Men's Holiday Clothes"
             },
             landingpage: "http://www.asos.com",
         },
@@ -55,7 +59,7 @@ let data = [
                 extentionsOne: "Maternity Clothes",
                 extentionsTwo: "Dresses",
                 extentionsThree: "Log in",
-                extentionsOne: "Pluz Size Clothing"
+                extentionsFour: "Pluz Size Clothing"
             },
             landingpage: "http://boohoo.com",
         },
@@ -67,7 +71,7 @@ let data = [
                 extentionsOne: "New",
                 extentionsTwo: "Brands",
                 extentionsThree: "Vintage",
-                extentionsOne: "Fleece"
+                extentionsFour: "Fleece"
             },
             landingpage: "https://www.urbanoutfitters.com/en-gb/womens-clothing",
         },
@@ -163,7 +167,7 @@ let data = [
                 extentionsOne: "Robotic Toys",
                 extentionsTwo: "Learning Toys",
                 extentionsThree: "Toys for Big Kids",
-                extentionsOne: "Wheeled Toys & Bikes"
+                extentionsFour: "Wheeled Toys & Bikes"
             },
             landingpage: "https://www.toysrus.co.uk",
         },
@@ -175,7 +179,7 @@ let data = [
                 extentionsOne: "Toys",
                 extentionsTwo: "Smyths Toys",
                 extentionsThree: "Baby Toys",
-                extentionsOne: "Sensory Toys"
+                extentionsFour: "Sensory Toys"
             },
             landingpage: "https://www.smythstoys.com"
         },
@@ -187,7 +191,7 @@ let data = [
                 extentionsOne: "Toys under 10 pounds",
                 extentionsTwo: "Construction Toys",
                 extentionsThree: "Wheeled Toys",
-                extentionsOne: "Baby & Toddler Toys"
+                extentionsFour: "Baby & Toddler Toys"
             },
             landingpage:"https://www.argos.co.uk/browse/toys/c:30299/"
         },
