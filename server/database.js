@@ -1,8 +1,5 @@
 let data = [
     {
-        query: ""
-    },
-    {
        
         searchCat: "clothes",
         shoppingAds: {
