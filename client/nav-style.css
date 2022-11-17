@@ -47,6 +47,10 @@ button {
     border: none;
 }
 
+#searchbar:focus {
+    outline: none;
+}
+
 #searchsymbl {
     margin-left: 25px;
     padding: 3px;
