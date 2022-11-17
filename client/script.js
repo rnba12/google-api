@@ -10,7 +10,7 @@ fetch('http://localhost:3000/google/search/query').then(r => r.json())
 })
 
 
-function getData() {
+function sendData() {
     let searchQuery = document.getElementById('searchbar').value;
     console.log(searchQuery);
      const newSearch = JSON.stringify({query: searchQuery})
@@ -57,7 +57,7 @@ function getResults(){
 
 search.addEventListener('submit', (e) => {
     e.preventDefault();
-    getData();
+    sendData();
     getResults();
 })
 
