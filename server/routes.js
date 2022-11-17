@@ -1,6 +1,6 @@
-const express = require('express');
-const router = express.Router();
-const data = require('./database');
+const express = require('express')
+const router = express.Router()
+const data = require('./database')
 
 //get all data
 router.get('/data', (req,res) => {
