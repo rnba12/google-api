@@ -23,11 +23,14 @@ router.get('/:result', (req,res) => {
     }
 })
 
-router.post('/search/:term', (req,res) => {
-    const term = req.body.term;
-    console.log(term);
-    data[0].query = term;
+router.post('/search', (req,res) => {
+    const term = req.body;
+    data[0] = term;
     res.status(201).send(data[0].query);
+})
+
+router.get('/search/query', (req, res) => {
+    res.status(200).send(data[0])
 })
 
 module.exports = router;

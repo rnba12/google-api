@@ -12,7 +12,7 @@ let data = [
                 brand: "Cider",
                 landingpage: "https://www.shopcider.com/product/detail?pid=1013851&style_id=113720&currency=GBP&sku_id=59247&utm_source=google_shopping&utm_campaign=pla-gb-cate-dress-mbtb&gbraid=0AAAAABvq22vCxUPO5wNwYktw9gY3E_U6f&gclid=EAIaIQobChMIxpmVkcCy-wIVwevtCh3g-w02EAQYAiABEgIEz_D_BwE"
             },
-            adOTwo: {
+            adTwo: {
                 title: "Letter Graphic Thermal Lined Sweatshirt, M Letter Pullovers Hoodie Casual size 18-35Y White Regular, White by SHEIN , White by SHEIN",
                 price: "£7.99",
                 brand: "SHEIN",
