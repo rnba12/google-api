@@ -6,4 +6,4 @@ function getData() {
     searchQuery = searchResult.value;
 }
 
-module.exports = searchQuery;
+export default searchQuery;
